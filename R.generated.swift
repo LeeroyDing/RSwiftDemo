@@ -29,7 +29,11 @@ struct R: Rswift.Validatable {
   }
   
   struct nib {
+    static let gameView = _R.nib._GameView()
     
+    static func gameView(_: Void) -> UINib {
+      return UINib(resource: R.nib.gameView)
+    }
   }
   
   struct reuseIdentifier {
@@ -62,7 +66,14 @@ struct _R: Rswift.Validatable {
   }
   
   struct nib {
-    
+    struct _GameView: NibResourceType {
+      let bundle = _R.hostingBundle
+      let name = "GameView"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> SKView? {
+        return instantiateWithOwner(ownerOrNil, options: optionsOrNil)[0] as? SKView
+      }
+    }
   }
   
   struct storyboard: Rswift.Validatable {
