@@ -160,6 +160,7 @@
 			buildConfigurationList = C3E84EFD1C52E46B000AFF50 /* Build configuration list for PBXNativeTarget "RSwiftDemo" */;
 			buildPhases = (
 				DAD1AA6C7D2CF15035099313 /* Check Pods Manifest.lock */,
+				C3D86C1D1C52E4D2002F1F6E /* Run Script */,
 				C3E84ECE1C52E46B000AFF50 /* Sources */,
 				C3E84ECF1C52E46B000AFF50 /* Frameworks */,
 				C3E84ED01C52E46B000AFF50 /* Resources */,
@@ -296,6 +297,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C3D86C1D1C52E4D2002F1F6E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
 		};
 		DAD1AA6C7D2CF15035099313 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
