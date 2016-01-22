@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		631FF3A5CF03AA7B3F94C506 /* Pods_RSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B729014B5D74608C2C00A12C /* Pods_RSwiftDemo.framework */; };
+		C3D86C211C52E561002F1F6E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D86C201C52E561002F1F6E /* R.generated.swift */; };
 		C3E84ED61C52E46B000AFF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E84ED51C52E46B000AFF50 /* AppDelegate.swift */; };
 		C3E84ED81C52E46B000AFF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E84ED71C52E46B000AFF50 /* ViewController.swift */; };
 		C3E84EDB1C52E46B000AFF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E84ED91C52E46B000AFF50 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		B729014B5D74608C2C00A12C /* Pods_RSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99AE9B0C0EC5AD9C14293A0 /* Pods-RSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSwiftDemo/Pods-RSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D86C201C52E561002F1F6E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		C3E84ED21C52E46B000AFF50 /* RSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E84ED51C52E46B000AFF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E84ED71C52E46B000AFF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		C3E84ED41C52E46B000AFF50 /* RSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3D86C201C52E561002F1F6E /* R.generated.swift */,
 				C3E84ED51C52E46B000AFF50 /* AppDelegate.swift */,
 				C3E84ED71C52E46B000AFF50 /* ViewController.swift */,
 				C3E84ED91C52E46B000AFF50 /* Main.storyboard */,
@@ -352,6 +355,7 @@
 				C3E84ED81C52E46B000AFF50 /* ViewController.swift in Sources */,
 				C3E84EDE1C52E46B000AFF50 /* RSwiftDemo.xcdatamodeld in Sources */,
 				C3E84ED61C52E46B000AFF50 /* AppDelegate.swift in Sources */,
+				C3D86C211C52E561002F1F6E /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
